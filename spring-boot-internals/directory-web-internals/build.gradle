@@ -25,13 +25,13 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-aop')
-	
-	
+
+
 	compile('org.springframework.boot:spring-boot-devtools')
-	optional("org.springframework.boot:spring-boot-configuration-processor")
-	
+	//optional("org.springframework.boot:spring-boot-configuration-processor")
+
 	// SOLUTION: XML response
 	// compile('com.fasterxml.jackson.dataformat:jackson-dataformat-xml')
-	
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
